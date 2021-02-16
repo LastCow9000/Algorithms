@@ -23,7 +23,7 @@
 
      - 노드가 `LinkedList`에서는 삭제됐지만 실제 메모리를 아직 잡아먹고 있는데 `java`나 `python`에서는  이러한 안쓰는 것들을 알아서 처리해준다(GC)
 
-[이미지1]
+![LinkedList1](/img/LL1.jpg)
 
 - 단방향 LL과 양방향 LL이 있다.
 
@@ -99,7 +99,7 @@ public class SinglyLinkedList {
 }
 ```
 
-[이미지2]
+> ![LinkedList1](/img/LL2.jpg)
 
 
 
