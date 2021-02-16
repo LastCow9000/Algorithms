@@ -1,15 +1,53 @@
+# LinkedList
+
+**일렬로 연결된 데이터를 저장할 때 사용하는 자료구조**
+
+- 다음 데이터의 주소를 가지고 있다.
+
+- 배열과 차이점
+
+  - 배열은 한 번 선언하면 크기를 줄이거나 늘릴 수 없어서 데이터 추가 삭제시 배열(크기)을 다시 선언해야함
+
+  - 데이터 검색 시 배열보다 느릴 수 있지만 삽입, 삭제가 더 좋다(배열은 다시 방을 잡고 전체 데이터를 복붙해야하므로)
+
+    ​	-> 길이가 정해지지 않은 데이터를 핸들링할 때는 `LinkedList`가 좋다
+
+- `LinkedList`는 데이터를 **추가**하고 싶으면 
+
+    1. 이전 노드가 갖고 있던 주소를 자기가 갖고 
+    2. 자신의 주소를 이전 노드에게 알려준다
+
+- `LinkedList`는 데이터를 **삭제**하고 싶으면
+
+  1. 자신이 갖고 있던 다음 노드의 주소를 이전 노드에게 알려준다
+
+     - 노드가 `LinkedList`에서는 삭제됐지만 실제 메모리를 아직 잡아먹고 있는데 `java`나 `python`에서는  이러한 안쓰는 것들을 알아서 처리해준다(GC)
+
+[이미지1]
+
+- 단방향 LL과 양방향 LL이 있다.
+
+---
+
+
+
+## 구현
+
+#### - java
+
+```java
 package LinkedList;
 
 class LinkedList {
-  Node header; // 헤더 노드 선언
+  Node header;
 
   static class Node {
     int data; // 각 노드는 데이터를 가지고 있다.
     Node next = null; // 다음 노드의 주소 값(마지막 노드는 null)
   }
 
-  LinkedList() { // 생성자
-    header = new Node(); // 헤더 노드 생성
+  LinkedList() {
+    header = new Node();
   }
 
   // 맨 마지막에 데이터 추가
@@ -17,6 +55,7 @@ class LinkedList {
     Node end = new Node(); // 마지막 노드
     end.data = d; // 마지막 노드의 값
     Node n = header; // 포인터 생성
+
     // 맨 마지막 노드를 찾기위해 돈다.
     while (n.next != null) {
       n = n.next; // 다음 노드로 계속 이동
@@ -57,5 +96,15 @@ public class SinglyLinkedList {
     ll.delete(1);
     ll.retrieve();
   }
-
 }
+```
+
+[이미지2]
+
+
+
+
+
+
+
+​    
