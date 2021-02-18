@@ -55,6 +55,22 @@ https://www.acmicpc.net/problem/2577
 
 
 
+```python
+A = int(input())
+B = int(input())
+C = int(input())
+product = str(A * B * C)
+arr = [0] * 10
+
+for i in range(10):
+    arr[i] = product.count(str(i))
+
+for result in arr:
+    print(result)
+```
+
+
+
 1. 각각의 값을 입력받아서 곱한값을 문자열로 변환
 2. 0~9까지 각각의 배열인덱스에 인덱스에 해당하는 숫자의 갯수를 저장하기 위해 배열선언
 3. 반복문을 돌면서 각 인덱스에 해당하는 배열에 인덱스 숫자의 갯수를 세서 대입
