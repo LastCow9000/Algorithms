@@ -51,7 +51,7 @@ https://www.acmicpc.net/problem/2577
 
 
 
-[!](https://github.com/LastCow9000/Algorithms/blob/master/Algorithm/BOJ/2577_%EC%88%AB%EC%9E%90%EC%9D%98%20%EA%B0%9C%EC%88%98_b2/2577%ED%92%80%EC%9D%B4.jpg?raw=true)
+![풀이.jpg](https://github.com/LastCow9000/Algorithms/blob/master/Algorithm/BOJ/2577_%EC%88%AB%EC%9E%90%EC%9D%98%20%EA%B0%9C%EC%88%98_b2/2577%ED%92%80%EC%9D%B4.jpg?raw=true)
 
 
 
