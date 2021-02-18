@@ -10,7 +10,7 @@ https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV1
 
 다음과 같은 5X5 배열에서 최댓값은 29이다.
 
-![img](https://swexpertacademy.com/main/common/fileDownload.do?downloadType=CKEditorImages&fileId=AV2XTaX6DVkBBASl)
+![SW문제해결+기본 +2일차+-+Sum_그림1](https://user-images.githubusercontent.com/68089565/108380073-dc5a0c00-7249-11eb-8b74-08c4e9818189.png)
 
 
 **[제약 사항]**
