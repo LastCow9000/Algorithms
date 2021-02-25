@@ -1,6 +1,6 @@
 # boj 1475 방 번호 s5
 # https://www.acmicpc.net/problem/1475
-'''
+
 n = list(map(int, input()))  # 9999라면 [9,9,9,9]로 받기
 countArray = [0] * 10  # 0~9번 인덱스 초기값 0
 
@@ -22,6 +22,8 @@ if n[0] == 0:  # 예외, 입력이 0일 경우 1 출력
     print(1)
 else:
     print(max(countArray))  # 배열중에서 제일 큰 수 뽑기
+
+
 '''
 n = input()
 
@@ -40,3 +42,4 @@ if a[6] == max(a) or a[9] == max(a):
     a[9] = 0
 
 print(max(a))
+'''
