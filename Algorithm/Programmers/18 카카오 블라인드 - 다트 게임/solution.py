@@ -1,10 +1,10 @@
-# 다트 게임 lv1
+# 2018 KAKAO BLIND RECRUITME 다트 게임 lv1
 # https://programmers.co.kr/learn/courses/30/lessons/17682
 
 def solution(dartResult):
     ans = []
     tmp = 0
-    
+
     for i in range(len(dartResult)):
         if dartResult[i].isdigit():
             if dartResult[i] == "1" and dartResult[i + 1] == "0":
@@ -33,5 +33,5 @@ def solution(dartResult):
         elif dartResult[i] == "#":
             lastVal = ans.pop() * -1
             ans.append(lastVal)
-                
+
     return sum(ans)
