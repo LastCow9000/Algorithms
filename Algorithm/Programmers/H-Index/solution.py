@@ -1,4 +1,4 @@
-# 행렬 테두리 회전하기 lv2
+# H-Index lv2
 # https://programmers.co.kr/learn/courses/30/lessons/42747#
 
 def solution(citations):
