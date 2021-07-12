@@ -15,7 +15,6 @@ for _ in range(E):
     u, v, w = map(int, inp().split())
     graph[u].append((v, w)) # u -> v 로 가는 가중치 w
 
-
 def dijkstra(start):
     pq = [(0, start)] # 시작 점의 가중치는 0
     dist[start] = 0
