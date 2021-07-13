@@ -38,7 +38,7 @@ dijkstra(distStart, 1) # 3개를 구해서 경우의 수를 따져 최소 경로
 dijkstra(distThrough1, through1)
 dijkstra(distThrough2, through2)
 
-ans = min(distStart[through1] + distThrough1[through2] + distThrough2[N], distStart[through2] + distThrough1[through1] + distThrough2[N])
+ans = min(distStart[through1] + distThrough1[through2] + distThrough2[N], distStart[through2] + distThrough2[through1] + distThrough1[N])
 if ans >= INF:
     print(-1)
 else:
